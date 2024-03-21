@@ -41,6 +41,5 @@ while True:
         print("Quitting the program. Goodbye!")
         break
     # issue4 : Create else 
-    # Raksa
     else:
         print("Invalid choice. Please enter a number between 1 and 4.")
