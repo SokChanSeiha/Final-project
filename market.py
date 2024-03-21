@@ -2,18 +2,17 @@
 # issue 5 release + bugfix
 # issue 6 : hotfix
 
-item_dic = {"Coffee" : 7, "Pen" : 3, "Paper cup": 2, "Milk" : 1, "Coke" : 4, "Book" : 5}
+item_dic = {"Coffee" : 7, "Pen" : 3, "Paper cup": 2, "Milk" : 1, "Coke" : 4, "Book" : 5, "Pepsi" : 7}
 
 while True:
     # Issue1 :a add print menu    print("\nMenu:") 
-    # Ta
+    print("Menu : ")
     print("1. Inventory inquiry")
     print("2. Incoming stock")
     print("3. Outgoing stock")
     print("4. Quit")
 
     # issue2 : Input choice
-    # Seiha
     user_input = input("Enter your choice (1-4): ")
 
     if user_input == "1":
@@ -39,11 +38,9 @@ while True:
         else:
             print(f"{pro_name} not found in inventory.")
     # issue3 : Create option to quit
-    # Tra
     elif user_input == "4":
         print("Quitting the program. Goodbye!")
         break
     # issue4 : Create else 
-    # Raksa
     else:
         print("Invalid choice. Please enter a number between 1 and 4.")
