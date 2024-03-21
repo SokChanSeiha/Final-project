@@ -12,7 +12,6 @@ while True:
     print("4. Quit")
 
     # issue2 : Input choice
-    # Seiha
     user_input = input("Enter your choice (1-4): ")
 
     if user_input == "1":
